@@ -37,7 +37,6 @@ Databases & DBA Tools
 ![Toad for Oracle](https://img.shields.io/badge/Toad_for_Oracle-2E7EEA?style=for-the-badge)
 
 
-
 Cloud, OS & Automation
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
@@ -52,13 +51,5 @@ Cloud, OS & Automation
 - [Azure Administrator Associate (AZ-104)](https://learn.microsoft.com/api/credentials/share/en-us/EmmanuelAdemola-5455/AA2BF304C45B25C1?sharingId=73A511A5D7BFFB23)
 - [Azure Fundamentals (AZ-900)](https://learn.microsoft.com/api/credentials/share/en-us/EmmanuelAdemola-5455/D02E9036D037EF6B?sharingId=73A511A5D7BFFB23)
 
-
-
 *Certifications support my hands-on work; they do not replace it.*
 
----
-
-## 📫 Let’s Connect
-I’m interested in:
-- Cloud DBA or platform-adjacent positions
-- Cloud and infrastructure engineering roles
