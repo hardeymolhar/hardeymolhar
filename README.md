@@ -2,6 +2,11 @@
 
 I am a **Database Administrator** with hands-on experience operating SQL Server and Oracle environments, now extending that foundation into **Azure cloud infrastructure**.  
 My focus is on building and operating systems where **databases, networking, compute, and automation intersect**
+
+👉 **Explore my Azure Capstone Projects**  
+Infrastructure projects built under strict policy and RBAC constraints, focusing on real-world trade-offs.  
+→ [View Capstone Projects](https://github.com/hardeymolhar/azure-capstone-projects)
+
 ---
 
 ## 🧭 What I Do
