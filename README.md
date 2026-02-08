@@ -1,7 +1,7 @@
 # Hi, I’m Emmanuel 👋
 
 I am a **Database Administrator** with hands-on experience operating SQL Server and Oracle environments, now extending that foundation into **Azure cloud infrastructure**.  
-My focus is on building and operating systems where **databases, compute, networking, and automation intersect**, with an emphasis on reliabilit & performance.
+My focus is on building and operating systems where **databases, compute, networking, and automation intersect**, with an emphasis on reliability & performance.
 
 ---
 
