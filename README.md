@@ -5,6 +5,7 @@ My focus is on building and operating systems where **databases, networking, com
 
 👉 **Explore my Azure Capstone Projects**  
 Infrastructure projects built under strict policy and RBAC constraints, focusing on real-world trade-offs.  
+
 → [View Capstone Projects](https://github.com/hardeymolhar/Azure-Cloud-CapStone-Projects)
 
 ---
