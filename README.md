@@ -17,16 +17,6 @@ Infrastructure projects built under strict policy and RBAC constraints, focusing
 
 ---
 
-## 🧠 Background
-- On-prem **Database Administration** experience covering:
-  - SQL Server and Oracle configuration, operations and maintenance
-  - Backup, restore, and automation tasks
-  - Performance tuning  and Always on High Availability
-- Transitioning deliberately into **cloud-based database and platform operations**
-- Based in **Nigeria**, targeting global-standard cloud DBA and infrastructure roles
-
----
-
 ## 🧰 Tech Stack
 
 Databases & DBA Tools
@@ -35,6 +25,7 @@ Databases & DBA Tools
 ![SSMS](https://img.shields.io/badge/SSMS-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle_DB-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Toad for Oracle](https://img.shields.io/badge/Toad_for_Oracle-2E7EEA?style=for-the-badge)
+
 
 
 Cloud, OS & Automation
@@ -53,3 +44,13 @@ Cloud, OS & Automation
 
 *Certifications support my hands-on work; they do not replace it.*
 
+
+---
+
+## 🧠 Background
+- On-prem **Database Administration** experience covering:
+  - SQL Server and Oracle configuration, operations and maintenance
+  - Backup, restore, and automation tasks
+  - Performance tuning  and Always on High Availability
+- Transitioning deliberately into **cloud-based database and platform operations**
+- Based in **Nigeria**, targeting global-standard cloud DBA and infrastructure roles
