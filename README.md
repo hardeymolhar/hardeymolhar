@@ -1,7 +1,7 @@
 # Hi, I’m Emmanuel 👋
 
 I am a **Database Administrator** with hands-on experience operating SQL Server and Oracle environments, now extending that foundation into **Azure cloud infrastructure**.  
-My focus is on building and operating systems where **databases, compute, networking, and automation intersect**, with an emphasis on reliability, performance, and operational clarity.
+My focus is on building and operating systems where **databases, compute, networking, and automation intersect**, with an emphasis on reliabilit & performance.
 
 ---
 
@@ -20,6 +20,27 @@ My focus is on building and operating systems where **databases, compute, networ
   - Performance tuning  and Always on High Availability
 - Transitioning deliberately into **cloud-based database and platform operations**
 - Based in **Nigeria**, targeting global-standard cloud DBA and infrastructure roles
+
+---
+
+## 🧰 Tech Stack
+
+Databases & DBA Tools
+
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![SSMS](https://img.shields.io/badge/SSMS-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle_DB-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Toad for Oracle](https://img.shields.io/badge/Toad_for_Oracle-2E7EEA?style=for-the-badge)
+
+
+
+Cloud, OS & Automation
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux_Shell-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+
 
 ---
 
