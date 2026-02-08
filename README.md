@@ -25,7 +25,7 @@ My focus is on building and operating systems where **databases, compute, networ
 
 ## 📜 Certifications
 - Azure Administrator Associate (AZ-104)
-- Azure Network Fundamentals (AZ-900)
+- Azure Fundamentals (AZ-900)
 
 *Certifications support my hands-on work; they do not replace it.*
 
