@@ -1,16 +1,40 @@
-## Hi there 👋
+# Hi, I’m Emmanuel 👋
 
-<!--
-**hardeymolhar/hardeymolhar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Database Administrator | Azure Cloud & Infrastructure Operations**
 
-Here are some ideas to get you started:
+I am a **Database Administrator** with hands-on experience operating SQL Server and Oracle environments, now extending that foundation into **Azure cloud infrastructure**.  
+My focus is on building and operating systems where **databases, compute, networking, and automation intersect**, with an emphasis on reliability, performance, and operational clarity.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🧭 What I Do
+- Operate, monitor, and support **on-prem database systems** with a focus on reliability and performance
+- Design and deploy **Azure infrastructure** to support database workloads
+- Provision and manage database virtual machines and supporting resources
+- Apply on-prem DBA discipline to **cloud-based environments**
+
+---
+
+## 🧠 Background
+- On-prem **Database Administration** experience covering:
+  - SQL Server and Oracle configuration, operations and maintenance
+  - Backup, restore, and automation tasks
+  - Performance tuning  and Always on High Availability
+- Transitioning deliberately into **cloud-based database and platform operations**
+- Based in **Nigeria**, targeting global-standard cloud DBA and infrastructure roles
+
+---
+
+## 📜 Certifications
+- Azure Administrator Associate (AZ-104)
+- Azure Network Fundamentals (AZ-900)
+
+*Certifications support my hands-on work; they do not replace it.*
+
+---
+
+## 📫 Let’s Connect
+I’m interested in:
+- Cloud and infrastructure engineering roles
+- Cloud DBA or platform-adjacent positions
+- Teams that value **operational clarity and continuous improvement**
