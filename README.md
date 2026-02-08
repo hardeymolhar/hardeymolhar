@@ -1,8 +1,7 @@
 # Hi, I’m Emmanuel 👋
 
 I am a **Database Administrator** with hands-on experience operating SQL Server and Oracle environments, now extending that foundation into **Azure cloud infrastructure**.  
-My focus is on building and operating systems where **databases, compute, networking, and automation intersect**, with an emphasis on reliability & performance.
-
+My focus is on building and operating systems where **databases, networking, compute, and automation intersect**
 ---
 
 ## 🧭 What I Do
@@ -43,10 +42,12 @@ Cloud, OS & Automation
 
 
 ---
-
 ## 📜 Certifications
-- Azure Administrator Associate (AZ-104)
-- Azure Fundamentals (AZ-900)
+
+- [Azure Administrator Associate (AZ-104)](https://learn.microsoft.com/api/credentials/share/en-us/EmmanuelAdemola-5455/AA2BF304C45B25C1?sharingId=73A511A5D7BFFB23)
+- [Azure Fundamentals (AZ-900)](https://learn.microsoft.com/api/credentials/share/en-us/EmmanuelAdemola-5455/D02E9036D037EF6B?sharingId=73A511A5D7BFFB23)
+
+
 
 *Certifications support my hands-on work; they do not replace it.*
 
