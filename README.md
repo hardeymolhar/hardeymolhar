@@ -44,14 +44,3 @@ Cloud, OS & Automation
 - [Azure Fundamentals (AZ-900)](https://learn.microsoft.com/api/credentials/share/en-us/EmmanuelAdemola-5455/D02E9036D037EF6B?sharingId=73A511A5D7BFFB23)
 
 *Certifications support my hands-on work; they do not replace it.*
-
-
----
-
-## 🧠 Background
-- On-prem **Database Administration** experience covering:
-  - SQL Server and Oracle configuration, operations and maintenance
-  - Backup, restore, and automation tasks
-  - Performance tuning  and Always on High Availability
-- Transitioning deliberately into **cloud-based database and platform operations**
-- Based in **Nigeria**, targeting global-standard cloud DBA and infrastructure roles
