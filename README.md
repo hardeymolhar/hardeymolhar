@@ -1,7 +1,5 @@
 # Hi, I’m Emmanuel 👋
 
-**Database Administrator | Azure Cloud & Infrastructure Operations**
-
 I am a **Database Administrator** with hands-on experience operating SQL Server and Oracle environments, now extending that foundation into **Azure cloud infrastructure**.  
 My focus is on building and operating systems where **databases, compute, networking, and automation intersect**, with an emphasis on reliability, performance, and operational clarity.
 
@@ -35,6 +33,5 @@ My focus is on building and operating systems where **databases, compute, networ
 
 ## 📫 Let’s Connect
 I’m interested in:
-- Cloud and infrastructure engineering roles
 - Cloud DBA or platform-adjacent positions
-- Teams that value **operational clarity and continuous improvement**
+- Cloud and infrastructure engineering roles
