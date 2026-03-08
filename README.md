@@ -1,17 +1,16 @@
-# Hi, I’m Emmanuel 👋
+# Hello, I’m Emmanuel 
 
-I am a **Database Administrator** with hands-on experience operating SQL Server and Oracle environments, now extending that foundation into **Azure cloud infrastructure**.  
-My focus is on building and operating systems where **databases, networking, compute, and automation intersect**
+A **Cloud Database Engineer** with on-prem hands-on experience operating SQL Server and Oracle Database Workloads.My focus is on building and operating systems where **databases, networking, compute, and automation intersect**
 
-👉 **Explore my Azure Capstone Projects**  
-Infrastructure projects built under strict policy and RBAC constraints, focusing on real-world trade-offs.  
+👇🏾 **Explore my Azure Capstone Projects By Clicking on Link Below**  
+Infrastructure projects built in shared environment under policy and RBAC constraints, focusing on real-world trade-offs.  
 
 → [View Capstone Projects](https://github.com/hardeymolhar/Azure-Cloud-CapStone-Projects)
 
 ---
 
 ## 🧭 What I Do
-- Operate, monitor, and support **on-prem database systems** with a focus on reliability and performance
+- Operate, monitor, and support **on-prem database systems** with a focus on security, reliability and performance
 - Design and deploy **Azure infrastructure** to support database workloads
 - Provision and manage database virtual machines and supporting resources
 - Apply on-prem DBA discipline to **cloud-based environments**
