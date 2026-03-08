@@ -1,6 +1,6 @@
 # Hello, I’m Emmanuel 
 
-A **Cloud Database Engineer** with on-prem hands-on experience operating SQL Server and Oracle Database Workloads.My focus is on building and operating systems where **databases, networking, compute, and automation intersect**
+A **Cloud Database Engineer** with on-prem hands-on experience administering SQL Server and Oracle Database Workloads.My focus is on building and operating systems where **databases, networking, compute, and automation intersect**
 
 👇🏾 **Explore my Azure Capstone Projects By Clicking on Link Below**  
 Infrastructure projects built in shared environment under policy and RBAC constraints, focusing on real-world trade-offs.  
