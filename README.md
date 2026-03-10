@@ -4,7 +4,7 @@
 My focus is building and operating systems where **databases, networking, compute, and automation intersect**.
 
 
-## 🚀 Featured Engineering Project
+## 🚀 Featured Engineering Projects
 Infrastructure projects built in shared environment under policy and RBAC constraints, focusing on real-world trade-offs.  
 
 ### Cosmos DB Batch Ingestion Demo
@@ -29,8 +29,6 @@ Ansible --> DotNet_App
 DotNet_App --> CosmosDB
 CosmosDB --> Metrics
 ```
-
-Infrastructure is provisioned with Terraform, the virtual machine is configured using Ansible, and a .NET application performs high-throughput ingestion into Cosmos DB.
 ---
 
 ## 🧭 What I Do
