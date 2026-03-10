@@ -6,10 +6,10 @@ My focus is building and operating systems where **databases, networking, comput
 
 ## 🚀 Featured Engineering Projects
 
-### Cosmos DB Batch Ingestion Demo
+### 1.Cosmos DB Batch Ingestion Demo
 High-throughput ingestion testing using the Azure Cosmos DB .NET SDK deployed on infrastructure provisioned with Terraform and configured with Ansible.
 
-Engineering Focus
+#### Engineering Focus
 
 - Cosmos DB RU consumption monitoring
 - Batch ingestion performance testing
@@ -19,7 +19,7 @@ Engineering Focus
 🔗 Repository
 → [View CosmosDB Project](https://github.com/hardeymolhar/azure-data-platform)
 
-## 🏗 System Architecture
+#### 🏗 System Architecture
 ```mermaid
 flowchart LR
 Terraform --> Azure_VM
