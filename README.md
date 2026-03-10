@@ -5,7 +5,20 @@ A **Cloud Database Engineer** with on-prem hands-on experience administering SQL
 👇🏾 **Explore my Azure Capstone Projects By Clicking on Link Below**  
 Infrastructure projects built in shared environment under policy and RBAC constraints, focusing on real-world trade-offs.  
 
-→ [View Capstone Projects](https://github.com/hardeymolhar/Azure-Cloud-CapStone-Projects)
+🚀 Featured Projects
+
+## Cosmos DB Batch Ingestion Demo
+
+Demonstrates high-throughput batch ingestion using the .NET SDK.
+
+Focus
+
+- Cosmos DB RU performance monitoring
+- Bulk ingestion testing
+- Metrics analysis
+
+🔗 Repository
+→ [View Capstone Projects](https://github.com/hardeymolhar/azure-data-platform)
 
 ---
 
@@ -14,6 +27,8 @@ Infrastructure projects built in shared environment under policy and RBAC constr
 - Design and deploy **Azure infrastructure** to support database workloads
 - Provision and manage database virtual machines and supporting resources
 - Apply on-prem DBA discipline to **cloud-based environments**
+
+
 
 ---
 
