@@ -1,25 +1,36 @@
 # Hello, I’m Emmanuel 
 
-A **Cloud Database Engineer** with on-prem hands-on experience administering SQL Server and Oracle Database Workloads.My focus is on building and operating systems where **databases, networking, compute, and automation intersect**
+**Cloud Database Engineer** with hands-on experience administering **SQL Server and Oracle workloads on-prem** while designing and deploying Azure infrastructure for database platforms.
+My focus is building and operating systems where **databases, networking, compute, and automation intersect**.
 
-👇🏾 **Explore my Azure Capstone Projects By Clicking on Link Below**  
+
+## 🚀 Featured Engineering Project
 Infrastructure projects built in shared environment under policy and RBAC constraints, focusing on real-world trade-offs.  
 
-🚀 Featured Projects
+### Cosmos DB Batch Ingestion Demo
+High-throughput ingestion testing using the Azure Cosmos DB .NET SDK deployed on infrastructure provisioned with Terraform and configured with Ansible.
 
-## Cosmos DB Batch Ingestion Demo
+Engineering Focus
 
-Demonstrates high-throughput batch ingestion using the .NET SDK.
-
-Focus
-
-- Cosmos DB RU performance monitoring
-- Bulk ingestion testing
-- Metrics analysis
+- Cosmos DB RU consumption monitoring
+- Batch ingestion performance testing
+- Infrastructure provisioning with Terraform
+- VM configuration using Ansible
 
 🔗 Repository
-→ [View Capstone Projects](https://github.com/hardeymolhar/azure-data-platform)
+→ [View CosmosDB Project](https://github.com/hardeymolhar/azure-data-platform)
 
+## 🏗 System Architecture
+```mermaid
+flowchart LR
+Terraform --> Azure_VM
+Azure_VM --> Ansible
+Ansible --> DotNet_App
+DotNet_App --> CosmosDB
+CosmosDB --> Metrics
+```
+
+Infrastructure is provisioned with Terraform, the virtual machine is configured using Ansible, and a .NET application performs high-throughput ingestion into Cosmos DB.
 ---
 
 ## 🧭 What I Do
