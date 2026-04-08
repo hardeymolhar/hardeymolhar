@@ -1,7 +1,6 @@
 # Hello, I’m Emmanuel 
 
-**Cloud Database Engineer** with hands-on experience administering **SQL Server and Oracle workloads on-prem** while designing and deploying Azure infrastructure for database platforms.
-My focus is building and operating systems where **databases, networking, compute, and automation intersect**.
+**Cloud Database Engineer** with proven experience supporting mission-critical **SQL Server and Oracle** systems in a top-tier Nigerian bank, across  on-prem and Azure environments.I build and maintain the systems that keep data running—secure, available, and efficient. By combining cloud, infrastructure, and automation, I help ensure everything works reliably behind the scenes.
 
 
 ## 🚀 Featured Engineering Projects
