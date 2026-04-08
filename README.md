@@ -28,15 +28,6 @@ Ansible --> DotNet_App
 DotNet_App --> CosmosDB
 CosmosDB --> Metrics
 ```
----
-
-## 🧭 What I Do
-- Operate, monitor, and support **on-prem database systems** with a focus on security, reliability and performance
-- Design and deploy **Azure infrastructure** to support database workloads
-- Provision and manage database virtual machines and supporting resources
-- Apply on-prem DBA discipline to **cloud-based environments**
-
-
 
 ---
 
@@ -58,13 +49,3 @@ Cloud, OS & Automation
 ![Linux](https://img.shields.io/badge/Linux_Shell-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-
-
-
----
-## 📜 Certifications
-
-- [Azure Administrator Associate (AZ-104)](https://learn.microsoft.com/api/credentials/share/en-us/EmmanuelAdemola-5455/AA2BF304C45B25C1?sharingId=73A511A5D7BFFB23)
-- [Azure Fundamentals (AZ-900)](https://learn.microsoft.com/api/credentials/share/en-us/EmmanuelAdemola-5455/D02E9036D037EF6B?sharingId=73A511A5D7BFFB23)
-
-*Certifications support my hands-on work; they do not replace it.*
