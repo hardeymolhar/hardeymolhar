@@ -6,16 +6,19 @@
 ## 🚀 Featured Engineering Projects
 
 ### 1. Cosmos DB Batch Ingestion Demo
-High-throughput ingestion testing using the Azure Cosmos DB .NET SDK deployed on infrastructure provisioned with Terraform and configured with Ansible.
 
-#### Engineering Focus
+Built a practical test environment to understand how Azure Cosmos DB handles high-volume data ingestion and how to optimize performance and cost.
 
-- Cosmos DB RU consumption monitoring
-- Batch ingestion performance testing
-- Infrastructure provisioning with Terraform
-- VM configuration using Ansible
+This project simulates real-world scenarios where large amounts of data need to be written efficiently, helping identify how throughput (RU/s) and system behavior change under load.
 
-🔗 Repository
+#### What I Focused On
+
+- Monitoring how request units (RU) are consumed during heavy data ingestion  
+- Testing batch ingestion patterns to improve performance and reduce cost  
+- Using Terraform to provision infrastructure in a consistent and repeatable way  
+- Using Ansible to configure virtual machines and standardize the environment 
+
+#### Repository
 → [View CosmosDB Project](https://github.com/hardeymolhar/azure-data-platform)
 
 #### 🏗 System Architecture
@@ -28,6 +31,23 @@ DotNet_App --> CosmosDB
 CosmosDB --> Metrics
 ```
 
+
+
+### 2. Secure Azure SQL PaaS with Cross-Region High Availability ( In Progress)
+
+Designed a secure and highly available Azure SQL environment to address common risks in banking and fintech systems, including downtime, data loss, and public exposure.
+
+This project focuses on building a reliable database platform that can continue operating during failures while keeping data secure and accessible.
+
+#### What I Focused On
+
+- Designing for high availability using cross-region failover and data replication  
+- Reducing downtime and data loss by meeting defined RTO and RPO targets  
+- Securing database access using private endpoints instead of public exposure  
+- Implementing encryption using customer-managed keys stored in Azure Key Vault  
+- Choosing controlled connectivity (proxy mode) to align with strict enterprise network environments  
+🔗 Repository
+→ [View CosmosDB Project](https://github.com/hardeymolhar/azure-data-platform)
 ---
 
 ## 🧰 Tech Stack
