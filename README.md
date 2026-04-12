@@ -44,7 +44,7 @@ This project focuses on building a reliable database platform that can continue 
 #### What I Focused On
 
 - Designing for high availability using cross-region failover and data replication  
-- Reducing downtime and data loss by meeting defined RTO and RPO targets  
+-  Using Terraform to provision infrastructure in a consistent and repeatable way   
 - Securing database access using private endpoints instead of public exposure  
 - Implementing encryption using customer-managed keys stored in Azure Key Vault  
 - Choosing controlled connectivity (proxy mode) to align with strict enterprise network environments  
