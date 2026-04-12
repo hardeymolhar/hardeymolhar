@@ -1,6 +1,6 @@
 # Hello, I’m Emmanuel 
 
-**Cloud Database Engineer** with proven experience supporting mission-critical **SQL Server and Oracle** systems in a top-tier Nigerian bank, across  on-prem and Azure environments.I build and maintain the systems that keep data running—secure, available, and efficient. By combining cloud, infrastructure, and automation, I help ensure everything works reliably behind the scenes.
+**Cloud Database Administrator** with proven experience supporting mission-critical **SQL Server and Oracle** systems in a top-tier Nigerian bank, across  on-prem and Azure environments.I build and maintain the systems that keep data running—secure, available, and efficient. By combining cloud, infrastructure, and automation, I help ensure everything works reliably behind the scenes.
 
 
 ## 🚀 Featured Engineering Projects
@@ -19,7 +19,9 @@ This project simulates real-world scenarios where large amounts of data need to 
 - Using Ansible to configure virtual machines and standardize the environment 
 
 #### Repository
+
 → [View CosmosDB Project](https://github.com/hardeymolhar/azure-data-platform)
+---
 
 #### 🏗 System Architecture
 ```mermaid
@@ -33,7 +35,7 @@ CosmosDB --> Metrics
 
 
 
-### 2. Secure Azure SQL PaaS with Cross-Region High Availability ( In Progress)
+### 2. Secure Azure SQL PaaS with Cross-Region High Availability (In Progress)
 
 Designed a secure and highly available Azure SQL environment to address common risks in banking and fintech systems, including downtime, data loss, and public exposure.
 
@@ -46,9 +48,64 @@ This project focuses on building a reliable database platform that can continue 
 - Securing database access using private endpoints instead of public exposure  
 - Implementing encryption using customer-managed keys stored in Azure Key Vault  
 - Choosing controlled connectivity (proxy mode) to align with strict enterprise network environments  
-🔗 Repository
-→ [View CosmosDB Project](https://github.com/hardeymolhar/azure-data-platform)
+
+#### Repository
+
+→ [View Azure SQL Project](https://github.com/hardeymolhar/azure-sql-automated-infrastructure)
 ---
+
+## 🏗️ System Architecture
+
+``` mermaid
+flowchart LR
+
+    subgraph Client Layer
+        P[Python Workload Simulator]
+    end
+
+    subgraph Network Layer
+        PE_SQL[Private Endpoint SQL]
+        PE_KV[Private Endpoint Key Vault]
+    end
+
+    subgraph Security Layer
+        KV[Key Vault]
+    end
+
+    subgraph Primary Region
+        FG[Failover Group Endpoint]
+        SQLP[SQL Primary]
+    end
+
+    subgraph Secondary Region
+        SQLS[SQL Secondary]
+    end
+
+    subgraph Observability
+        AM[Azure Monitor]
+        LA[Log Analytics Workspace]
+        WB[Workbooks and Alerts]
+    end
+
+    P --> PE_SQL
+    P --> PE_KV
+
+    PE_SQL --> FG
+    FG --> SQLP
+    SQLP -->|Geo Replication| SQLS
+
+    SQLP -->|CMK| KV
+    PE_KV --> KV
+
+    P --> AM
+    SQLP --> AM
+    SQLS --> AM
+    KV --> AM
+
+    AM --> LA
+    LA --> WB
+
+```
 
 ## 🧰 Tech Stack
 
