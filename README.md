@@ -1,6 +1,6 @@
 # Hello, I’m Emmanuel 
 
-**On Prem & Cloud Database Administrator** with proven experience supporting mission-critical **SQL Server and Oracle** systems in a top-tier Nigerian bank, across  on-prem and Azure environments.I build and maintain the systems that keep data running—secure, available, and efficient. By combining cloud, infrastructure, and automation, I help ensure everything works reliably behind the scenes.
+**Cloud Infrastructure Engineer** with proven experience supporting mission-critical **SQL Server and Oracle** systems in a top-tier Nigerian bank, across  on-prem and Azure environments.I build and maintain the systems that keep data running—secure, available, and efficient. By combining cloud, infrastructure, and automation, I help ensure everything works reliably behind the scenes.
 
 
 ## 🚀 Featured Database Engineering Projects
