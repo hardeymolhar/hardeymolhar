@@ -28,7 +28,7 @@ This project addresses the point where vertical scaling stops working. A single 
 
 #### Repository
 
-→ [View Azure SQL Sharding Project](https://github.com/hardeymolhar/azure-sql-sharding-automation)
+→ [View Azure SQL Sharding Project]((https://github.com/hardeymolhar/azure-sql-sharding-automation/tree/range-shard-map))
 
 #### 🏗 System Architecture
 
