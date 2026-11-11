@@ -8,7 +8,74 @@ I build and maintain the systems that keep data running — secure, available, a
 
 ## 🚀 Featured Database Engineering Projects
 
-### 1. Horizontally Sharded Multi-Write-Primary Azure SQL Platform
+### 1. Encrypting Azure SQL Database: TDE, Cell-Level Encryption and Always Encrypted
+
+`Terraform` · `Azure SQL Database` · `Azure Key Vault` · `T-SQL` · `PowerShell` · `Bash` · `sqlcmd`
+
+Built a single Terraform-provisioned Azure SQL environment that layers all three of SQL's encryption features, and proved for each one **where the data is encrypted, and who can still read it**.
+
+This project addresses a question encryption alone doesn't answer: who holds the key. TDE protects the files at rest but is transparent to anyone who can query the database. Cell-level encryption protects chosen columns but still leaves the keys inside the database, where an administrator can reach them. Always Encrypted moves the key to the client, so even a database administrator sees only ciphertext.
+
+#### What I Focused On
+
+- Enabling TDE with a customer-managed RSA key in Key Vault, with purge protection, wrap/unwrap-only key operations and a least-privilege access policy for the server's managed identity
+- Implementing cell-level encryption with a certificate generated in Key Vault and imported into SQL, then proving a non-admin user needs two separate grants, one on the key and one on the certificate, before decryption works
+- Deploying Always Encrypted with a VBS secure enclave and an enclave-enabled column master key in Key Vault, so existing data is encrypted in place without leaving the server
+- Encrypting four bank columns with PowerShell `Set-SqlColumnEncryption`, choosing deterministic or randomized per column based on lookup needs and leakage risk
+- Classifying sensitive columns before encryption and confirming the labels survive it
+- Auditing the server to a storage account with Microsoft's recommended action groups, and logging Key Vault access
+- Running the database work from VS Code and `sqlcmd` with Entra ID access tokens, and recording evidence for every step
+
+#### Repository
+
+→ [View Azure SQL Encryption Project](https://github.com/hardeymolhar/Implementing-TDE-Cell-Level-Encryption-and-Always-Encrypted)
+
+#### 🏗 System Architecture
+
+```mermaid
+flowchart LR
+
+    subgraph Provisioning
+        TF[Terraform]
+    end
+
+    subgraph Security Layer
+        KV[Azure Key Vault]
+        TDEK[TDE Protector Key]
+        CERT[CLE Certificate]
+        CMK[AE Column Master Key]
+    end
+
+    subgraph Data Layer
+        SQL[Azure SQL Database]
+        ENC[VBS Secure Enclave]
+    end
+
+    subgraph Client Layer
+        PS[PowerShell / VS Code]
+    end
+
+    subgraph Observability
+        AUD[Audit Logs - Storage]
+    end
+
+    TF --> KV
+    TF --> SQL
+    KV --- TDEK
+    KV --- CERT
+    KV --- CMK
+
+    SQL -->|TDE wrap/unwrap| TDEK
+    CERT -->|imported for CLE| SQL
+    PS -->|unwraps CEK| CMK
+    PS -->|encrypts in place| ENC
+    ENC --> SQL
+    SQL --> AUD
+```
+
+---
+
+### 2. Horizontally Sharded Multi-Write-Primary Azure SQL Platform
 
 `Terraform` · `Azure SQL Database` · `Elastic Database Client Library` · `.NET` · `Azure Key Vault` · `T-SQL`
 
@@ -66,7 +133,7 @@ flowchart LR
 
 ---
 
-### 2. Azure SQL Automated Infrastructure
+### 3. Azure SQL Automated Infrastructure
 
 > 2026 – Present · two sub-projects in one repository
 
@@ -74,7 +141,7 @@ An Infrastructure-as-Code platform for enterprise Azure SQL environments, coveri
 
 **Repository** → [azure-sql-automated-infrastructure](https://github.com/hardeymolhar/azure-sql-automated-infrastructure/tree/feature/resource-variable-injection)
 
-#### 2.1 Azure SQL High Availability & Disaster Recovery
+#### 3.1 Azure SQL High Availability & Disaster Recovery
 
 `Terraform` · `Azure SQL Database` · `Failover Groups` · `Active Geo-Replication` · `Private Endpoints` · `TDE with CMK` · `C#`
 
@@ -140,7 +207,7 @@ flowchart LR
     LA --> WB
 ```
 
-#### 2.2 Azure SQL Automated Platform
+#### 3.2 Azure SQL Automated Platform
 
 `Terraform` · `Ansible` · `Bash` · `Azure` · `SQL Server 2022` · `Windows` · `RHEL`
 
@@ -196,7 +263,7 @@ flowchart LR
 
 ---
 
-### 3. Cosmos DB Batch Ingestion Demo
+### 4. Cosmos DB Batch Ingestion Demo
 
 `Terraform` · `Ansible` · `Azure Cosmos DB` · `.NET` · `Azure Monitor`
 
